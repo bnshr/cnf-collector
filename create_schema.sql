@@ -1,4 +1,4 @@
-create database cnf;
+create database if not exists cnf;
 use cnf;
 
 create table claim (
