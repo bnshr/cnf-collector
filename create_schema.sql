@@ -7,6 +7,7 @@ create table claim (
   created_by  varchar(50) not null,
   upload_time datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   partner_name varchar(50),
+  mark_for_delete boolean DEFAULT false,
   primary key (id)
 );
 
